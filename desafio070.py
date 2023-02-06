@@ -12,7 +12,7 @@ while True:
         barato = produto
     resp = ' '
     while resp not in 'SN':
-        resp = str(input('Quer continuar? [S/N] ')).strip().upper()[0]
+        resp = str(input('Quer continuar? [S/N] ')).upper().strip()[0]
     if resp == 'N':
         break
 print('{:-^40}'.format('FIM DO PROGRAMA'))
