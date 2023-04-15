@@ -19,6 +19,7 @@ def notas(*n, sit=False):
             r['situação'] = 'RUIM'
     return r
 
+
 resp = notas(5.5, 2.5, 9, 8.5, sit=True)
 print(resp)
 help(notas)
